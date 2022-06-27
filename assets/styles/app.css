@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", open-sans;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #31db07;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 100%;
+}
+
+#results,
+#persian_keyboard {
+  margin: 2rem auto;
+  width: 60rem;
+  max-width: 90%;
+  border: 1px solid #023d6d;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #023d6d;
+}
+
+#results {
+  text-align: center;
+  height: 180px;
+}
+
+#persian_keyboard button {
+  box-sizing: border-box;
+  line-height: 70px;
+  font-size: 22px;
+  text-align: center;
+  width: 70px;
+  color: #555;
+  cursor: pointer;
+  margin: 0 8px;
+  height: 70px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  text-shadow: 0 2px 6px #f2f2f2;
+  border-width: 1px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(
+    top,
+    #f9f9f9 0%,
+    #d2d2d2 50%,
+    #c0c0c0 100%
+  );
+  font-family: sans-serif;
+  display: inline-block;
+  transition: box-shadow 0.3s ease, transform 0.15s;
+  box-shadow: 0 0 10px grey;
+}
+#persian_keyboard #space {
+  box-sizing: border-box;
+  line-height: 70px;
+  font-size: 22px;
+  text-align: center;
+  width: 140px;
+  color: #555;
+  cursor: pointer;
+  margin: 0 8px;
+  height: 70px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  text-shadow: 0 2px 6px #f2f2f2;
+  border-width: 1px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(
+    top,
+    #f9f9f9 0%,
+    #d2d2d2 50%,
+    #c0c0c0 100%
+  );
+  font-family: sans-serif;
+  display: inline-block;
+  transition: box-shadow 0.3s ease, transform 0.15s;
+  box-shadow: 0 0 10px grey;
+}
+#persian_keyboard #backspace {
+  box-sizing: border-box;
+  line-height: 70px;
+  font-size: 22px;
+  text-align: center;
+  width: 140px;
+  color: #555;
+  cursor: pointer;
+  margin: 0 8px;
+  height: 70px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  text-shadow: 0 2px 6px #f2f2f2;
+  border-width: 1px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(
+    top,
+    #f9f9f9 0%,
+    #d2d2d2 50%,
+    #c0c0c0 100%
+  );
+  font-family: sans-serif;
+  display: inline-block;
+  transition: box-shadow 0.3s ease, transform 0.15s;
+  box-shadow: 0 0 10px grey;
+}
+
+#persian_keyboard button:focus,
+button:hover {
+  transform: translateY(2px);
+}
+
+#persian_keyboard button:active {
+  transform: translateY(6px);
+}
+
+#alphabet button {
+  width: 4rem;
+  margin: 2px;
+}
+
+#alphabet {
+  margin-top: 1rem;
+  text-align: center;
+}
