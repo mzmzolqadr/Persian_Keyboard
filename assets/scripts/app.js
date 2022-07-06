@@ -172,7 +172,7 @@ function clicker24() {
 let24Key.addEventListener("click", clicker24);
 
 function clicker25() {
-  const typedLetter = let04Key.innerText;
+  const typedLetter = let25Key.innerText;
   currentTyped = currentTyped + typedLetter;
   outputResult(currentTyped);
 }
